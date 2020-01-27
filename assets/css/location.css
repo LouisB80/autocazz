@@ -1,0 +1,72 @@
+#dataBaseList
+{
+  background-color: #586481;
+  border: 5px solid lightgrey;
+  width: 90%;
+  height: 100vh;
+}
+#search
+{
+  background-color: lightgrey;
+}
+#section
+{
+  font-size: 10vh;
+}
+@media  (max-width : 900px)
+{
+  #section
+  {
+    font-size: 5vh;
+    text-align: center;
+  }
+}
+/* Personnalisation select */
+/* Reset Select */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #2c3e50;
+  background-image: none;
+  height: 4vh;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #2c3e50;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #2c3e50;
+}

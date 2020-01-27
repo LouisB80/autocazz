@@ -1,0 +1,22 @@
+h1
+{
+    font-size: 4vw;
+    text-align: center;
+}
+.selForm
+{
+    background-color: lightgrey;
+    width: 50vw;
+    margin-bottom: 5vh;
+}
+a:link
+{
+text-decoration:none;
+}
+@media (min-width:300px)
+{
+    .selForm
+    {
+        margin-bottom: 15vh;
+    }
+}
